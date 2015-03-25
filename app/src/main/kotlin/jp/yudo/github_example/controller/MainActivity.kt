@@ -1,9 +1,9 @@
-package jp.yudo.github_example
+package jp.yudo.github_example.controller
 
 import android.app.Activity
 import android.os.Bundle
+import jp.yudo.github_example.R
 import jp.yudo.github_example.model.GithubClient
-import java.util.HashMap
 
 public class MainActivity : Activity() {
     override fun onCreate(savedInstanceState: Bundle?) {
