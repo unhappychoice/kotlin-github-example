@@ -1,4 +1,4 @@
-package jp.yudo.github_example;
+package com.unhappychoice.github_example;
 
 import android.app.Application;
 import android.test.ApplicationTestCase;

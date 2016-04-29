@@ -1,14 +1,14 @@
-package jp.yudo.github_example.controller
+package com.unhappychoice.github_example.controller
 
 import android.app.Activity
 import android.os.Bundle
 import android.util.Log
 import android.widget.ArrayAdapter
 import android.widget.ListView
-import jp.yudo.github_example.R
-import jp.yudo.github_example.model.GithubUser
+import com.unhappychoice.github_example.model.GithubUser
+import com.unhappychoice.github_example.R
 
-public class MainActivity : Activity() {
+class MainActivity : Activity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)

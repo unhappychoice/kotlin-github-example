@@ -1,4 +1,4 @@
-package jp.yudo.github_example.model
+package com.unhappychoice.github_example.model
 
 import rx.Observable
 import rx.Subscriber
@@ -8,7 +8,7 @@ import rx.Subscriber
  */
 
 class GithubUser {
-    companion object UsersFactory {
+    companion object {
         fun fetchUserLoginNames() : Observable<List<String>> {
             return Observable.create { observer: Subscriber<in List<String>?> ->
                 val client = GithubClient();
